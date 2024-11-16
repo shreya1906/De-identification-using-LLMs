@@ -45,13 +45,11 @@ Here's how to initiate the project:
 **Step 1:** Organize Data
 Place your original files with PII in the original_files folder and human redacted files in human_redacted_files folder. **We have artificially created some sample files for your reference in the folder.**
 
-**Step 2:** cd to the repository and add OpenAI API Key to `de_identified_csv_generator.py`
-
-**Step 3:** Run the `de_identified_csv_generator.py`
+**Step 2:** Run the `de_identified_csv_generator.py`
 Execute the de_identified_csv_generator script, providing the necessary input files and the output folder (which will be automatically created):
 This script will process the files, remove PII, and generate an OpenAI de-identified CSV file within an OpenAI_redacted_files folder inside the results folder.
 
-**Step 4:** Run the `de_identified_csv_evaluator.py`
+**Step 3:** Run the `de_identified_csv_evaluator.py`
 To evaluate the accuracy of the de-identification process, run the De-identified CSV Evaluator script:
 This script will analyze the de-identified CSV files in the results folder and update the metrics csv with accuracy, precision, recall and kappa values. 
 
