@@ -32,6 +32,7 @@ Before getting started, ensure you have the following:
 
   ```bash
   pip install openai fireworks pandas
+  pip install --upgrade fireworks-ai
   ```
 
 - **Input Data**:
